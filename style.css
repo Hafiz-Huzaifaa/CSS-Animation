@@ -1,0 +1,55 @@
+/* This is Css basic animation */
+  
+body{
+    background: url(./Images/bg.jpg) center/cover no-repeat fixed;
+}
+
+@keyframes dr{
+from{
+left: 0;
+}
+
+to{
+left: 80vw;
+}
+
+}
+
+@keyframes more-birds{
+    from{
+    right: 0;
+    }
+    
+    to{
+    right: 80vw;
+    }
+    
+    }
+
+div.img1 img{
+position: absolute;
+top: 40em;
+animation-name: dr;
+animation-duration: 10s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+}
+
+div.img2 img{
+    position: absolute;
+top: -3.5em;
+animation-name: dr;
+animation-duration: 10s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+}
+
+div.img3 img{
+    position: absolute;
+    top: 0em;
+    animation-name: more-birds;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+} 
+ 
